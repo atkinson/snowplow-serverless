@@ -3,10 +3,10 @@
     "data": {
         "name": "anon_ip",
         "vendor": "com.snowplowanalytics.snowplow",
-        "enabled": true,
+        "enabled": false,
         "parameters": {
-        "anonOctets": 1,
-        "anonSegments": 1
+            "anonOctets": 1,
+            "anonSegments": 1
         }
     }
 }
