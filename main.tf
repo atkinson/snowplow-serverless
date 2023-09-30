@@ -446,7 +446,7 @@ resource "google_cloud_scheduler_job" "jobs_scheduler" {
   region           = var.region
   name             = "${var.prefix}-${each.value}-scheduler"
   description      = "Trigger for ${each.value}"
-  schedule         = "02,32 7-19 * * *"
+  schedule         = "02 8,12,4 * * 1-5"
   time_zone        = "Australia/Sydney"
   attempt_deadline = "320s"
 
